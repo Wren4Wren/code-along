@@ -24,8 +24,9 @@ class Animal {
     });
   }
 }
-
+// subclass extends another class [animal and INHERITS all the properties and methods from the parent class]
 class Dog extends Animal {
+  // we only need to declare constructor function in here if we want to apply new properties and methods to the subclass. if we don't it just inherits them from the parent class.
   constructor(name, content) {
     //Dog specific properties here
     super(name, content);
